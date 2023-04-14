@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Imprima', sans-serif;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(sources/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.wrapper span{
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+}
+
+
+.wrapper .container{
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 60vh;
+    width: 98vw;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.wrapper .container .centering{
+    height: 2rem;
+    width: 15rem;
+    outline: none;
+    border-radius: 7px;
+    border: white;
+}
+
+.container input{
+    font-weight: bold;
+    padding: 7px;
+}
+
+.wrapper .container .continue{
+    color: white;
+    background-color: #000138;
+}
+
+.container .accounts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+button.bradius {
+    border-radius: 9px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.links img{
+    width: 2.3rem;
+}
+
+.container a{
+    color: black;
+    text-decoration: none;
+}
+
+.container p{
+    font-weight: bold;
+}
+
+.white{
+    color:white;
+}
+.container h4 a{
+    color: #000138;
+}
